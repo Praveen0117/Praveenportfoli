@@ -2,12 +2,12 @@ import React from "react";
 import  ReactDOM  from "react-dom";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
-import Header from "./Components/Header";
-import Body from "./Components/Body";
-import Skills from "./Components/Skills";
-import About from "./Components/About";
-import Projects from "./Components/Projects";
-import Error from "./Components/Error";
+import Header from "./src/Components/Header";
+import Body from "./src/Components/Body";
+import Skills from "./src/Components/Skills";
+import About from "./src/Components/About";
+import Projects from "./src/Components/Projects";
+import Error from "./src/Components/Error";
 
 const AppLayout = () => {
     return(
